@@ -1,0 +1,84 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container > div{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(93, 93, 246);
+}
+
+.grid-container-5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container-5 > div{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(93, 93, 246);
+}
+
+
+.grid-container > div > h3{
+    text-align: center;
+}
+
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+
+.overline{
+    text-decoration: overline;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-trought{
+    text-decoration: line-through;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+
+.lowercase{
+    text-transform:lowercase;
+}
+.uopercase{
+    text-transform: uppercase;
+}
+.capitaliza{
+    text-transform: capitalize;
+}
+
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: 'Lucida Sans', sans-serif;
+}
+.fantasy{
+    font-family: fantasy;
+}
