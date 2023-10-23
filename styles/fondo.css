@@ -1,0 +1,27 @@
+.grid-container-back{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.background{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.solid{
+    background-color: rgb(93, 93, 246);
+    border: none;
+}
+.gradient{
+    background-image: linear-gradient(rgb(93, 93, 246),rgb(36, 36, 90));  
+}
+.image{
+    background-image: url("../assets/css.png");
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

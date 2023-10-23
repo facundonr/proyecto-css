@@ -6,9 +6,8 @@
     justify-content: space-evenly;
 }
 
-.grid-container div{
-    background-color: rgba(255, 94, 94, 0.46);
-    
+.grid-container > div{
+    background-color: rgba(93, 93, 246, 0.456);
 }
 
 .box{
@@ -21,27 +20,27 @@
 }
 
 .solid{
-    border: 5px solid rgb(255, 97, 97);
+    border: 5px solid rgb(93, 93, 246);
 }
 
 .dotted{
-    border: 5px dotted rgb(255, 97, 97);
+    border: 5px dotted rgb(93, 93, 246);
 }
 .dashed{
-    border: 5px dashed rgb(255, 97, 97);
+    border: 5px dashed rgb(93, 93, 246);
 }
 .double{
-    border: 5px double rgb(255, 97, 97);
+    border: 5px double rgb(93, 93, 246);
 }
 .groove{
-    border: 5px groove rgb(255, 97, 97);
+    border: 5px groove rgb(93, 93, 246);
 }
 .ridge{
-    border: 5px ridge rgb(255, 97, 97);
+    border: 5px ridge rgb(93, 93, 246);
 }
 .inset{
-    border: 5px inset rgb(255, 97, 97);
+    border: 5px inset rgb(93, 93, 246);
 }
 .outset{
-    border: 5px outset rgb(255, 97, 97);
+    border: 5px outset rgb(93, 93, 246);
 }
