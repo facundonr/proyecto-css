@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
@@ -13,10 +11,20 @@ body{
     background-color: rgb(33, 33, 33);
 }
 
-.navbar{
-    width: 100%;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(43, 43, 43);
-    overflow: auto;
+    padding: 10px 5%;
+}
+
+.navbar{
+    align-self: flex-end;  
+}
+
+.logo-css{
+    width: 60px;
 }
 
 .navbar .section{
@@ -25,6 +33,7 @@ body{
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+    margin: 10px;
 }
 
 .navbar .section i{
@@ -34,14 +43,19 @@ body{
 
 .active{
     background-color: rgb(93, 93, 246);
+    border-radius: 5px;
 }
 
 .navbar .section:hover{
     background-color: rgb(93, 93, 246);
+    
 }
 
 .navbar .section:not(.active):hover{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 0 rgb(124, 124, 244);
+    transition: 0.2s linear;
 }
 
 .responsive{
